@@ -100,7 +100,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Yield Curve"
       subtitle = "My analysis of yield curve behavior"
-      image = "pic02.jpg"
+      image = "piclehman"
       url = "blogs/yieldcurve.rmd"
 
     [[params.tiles.showcase]]
