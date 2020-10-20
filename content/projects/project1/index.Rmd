@@ -1,11 +1,19 @@
 ---
-title: "index"
+title: "Yield Curve Analysis"
 author: "Philipp Niebuhr"
-date: "18/10/2020"
-output: html_document
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: flatly
+    highlight: zenburn
+    number_sections: yes
+    toc: yes
+    toc_float: yes
+    code_folding: show
 ---
 
-```{r setup, echo=FALSE}
+
+```{r, setup, echo=FALSE}
 knitr::opts_chunk$set(
   message = FALSE, 
   warning = FALSE, 
@@ -19,8 +27,8 @@ knitr::opts_chunk$set(
   fig.height=10,
   fig.align = "center"
 )
-
 ```
+
 
 ```{r load-libraries, echo=FALSE}
 library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
@@ -40,7 +48,7 @@ library(tidyquant)
 
 
 
-#Yield Curve inversion
+# Yield Curve inversion
 
 Every so often, we hear warnings from commentators on the "inverted yield curve" and its predictive power with respect to recessions.
 
@@ -122,14 +130,7 @@ skim(yield_curve)
 
 ### Yields on US rates by duration since 1960
 
-We would like to reproduce the following graph.
-
-*Sample graph:*
-```{r yield_curve_1, echo=FALSE, out.width="100%"}
-knitr::include_graphics(here::here("images", "yield_curve1.png"), error = FALSE)
-```
-
-*Here is our result:*
+*My result:*
 ```{r, recreating_first_plot}
 
 #recreating the above plot using the yield_curve dataframe
@@ -177,15 +178,7 @@ yield_curve %>%
 
 ### Monthly yields on US rates by duration since 1999 on a year-by-year basis
 
-
-We would like to reproduce the following plot:
-
-*Sample graph:*
-```{r yield_curve_2, echo=FALSE, out.width="100%"}
-knitr::include_graphics(here::here("images", "yield_curve2.png"), error = FALSE)
-```
-
-*Our result:*
+*My result:*
 ```{r, recreating_second_plot}
 ##PREPPING DATA TO PLOT
 
@@ -259,12 +252,7 @@ yield_curve1999_plot
 
 We would like to replicate the following graph
 
-*Sample graph:*
-```{r yield_curve_3, echo=FALSE, out.width="100%"}
-knitr::include_graphics(here::here("images", "yield_curve3.png"), error = FALSE)
-```
-
-*Our result:*
+*My result:*
 ```{r, recreating_third_plot, eval = TRUE}
 ##PREPPING DATA FOR PLOT
 
@@ -330,14 +318,7 @@ Under normal circumstances, the yield curve has an arching, upward slope because
 
 
 
-
-Finally, we would like to reproduce the following plot
-
-*Sample graph:*
-```{r yield_curve_challenge, echo=FALSE, out.width="100%"}
-knitr::include_graphics(here::here("images", "yield_curve_challenge.png"), error = FALSE)
-```
-We proceed in three steps:
+For the final graph, I proceed in three steps:
 
 1. Setup data for US recessions 
 1. Superimpose recessions as the grey areas in our plot
