@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AirBnB_Project</title>
+      <link>/blogs/airbnb_group15a_final/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/airbnb_group15a_final/</guid>
+      <description>IntroductionIn our final group assignment, we analyse data about Airbnb listings, and we try to find a model to predict the total cost for two people staying 4 nights in an AirBnB in Shanghai. Our data set comes from insideairbnb.com; it was originally scraped from airbnb.com. Our work is structured as follows: We begin by cleaning our data set. For instance, we remove outliers, delete NAs, and convert non-numeric data into numeric data.</description>
+    </item>
+    
+    <item>
       <title>GDP Project</title>
       <link>/blogs/gdp/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>

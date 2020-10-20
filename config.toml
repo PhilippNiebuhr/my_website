@@ -96,6 +96,12 @@ disqusShortname = ""
       subtitle = "What I have done so far"
       image = "piclbs.jpg"
       url = "blogs/Philipp_Niebuhr_CV.pdf"
+      
+    [[params.tiles.showcase]]
+      title = "Shanghai AirBnB Pricing Analysis"
+      subtitle = "Our final group project for the Data Analytics Course at LBS"
+      image = "picshanghai"
+      url = "blogs/AirBnB_Group15A_Final"
 
     [[params.tiles.showcase]]
       title = "Yield Curve"
@@ -108,12 +114,6 @@ disqusShortname = ""
       subtitle = "Using the Expenditure Approach to approximate reported GDP figures"
       image = "pictrade.jpg"
       url = "blogs/gdp"
-
-    [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
-      image = "pic04.jpg"
-      url = "blogs/ipsum"
 
     [[params.tiles.showcase]]
       title = "Consequat"
