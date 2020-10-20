@@ -1,9 +1,9 @@
 ---
-date: "2017-10-31T22:27:21-05:00"
+date: "2020-10-20"
 draft: false
-image: pic02.jpg
+image: piclbs.jpg
 slug: blogs
-title: Lifestyle
+title: My projects
 ---
 
-My blogs about technology and lifestyle.
+My projects from the Data Analytics Course at London Business School.

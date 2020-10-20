@@ -48,7 +48,7 @@ disqusShortname = ""
       url = "#"
 
     [[params.navigation.links]]
-      name = "Blogs"
+      name = "Projects"
       url = "blogs"
 
     #[[params.navigation.links]]
@@ -67,9 +67,9 @@ disqusShortname = ""
     #    url = "UrlOfLink"
 
     # Button Style 1
-    [[params.navigation.button1]]
-      name = "Get Started"
-      url = "blogs"
+    #[[params.navigation.button1]]
+     # name = "Get Started"
+      #url = "blogs"
 
     # Button Style 2
     #[[params.navigation.button2]]
@@ -128,7 +128,7 @@ disqusShortname = ""
       #url = "blogs/ipsum"
     # You can make more showcases by copy and pasting the code above
 
-  [params.blog]
+  [params.blogs]
     # All blogs defined in their own files. You can find example blogs
     # at 'exampleSite/content/blogs'. Copy the 'blogs' folder into the 'content' directory
     # at the root of this Hugo site.
@@ -146,8 +146,8 @@ disqusShortname = ""
     occur. I will continiously improve and add content to this website. My next big project on this website will be 
     a travel blog, in which I want to share with you the experiences I gained in Namibia, Thailand, 
     and rural China. There is more to come!"""
-    buttonText = "Back to projects"
-    url = "blogs"
+    buttonText = "Back to top of the page"
+    url = "#"
 
 
   # Contact section
