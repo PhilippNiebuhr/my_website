@@ -104,16 +104,17 @@ disqusShortname = ""
       url = "blogs/AirBnB_Group15A_Final"
 
     [[params.tiles.showcase]]
+      title = "Gross Domestic Product"
+      subtitle = "Using the Expenditure Approach to approximate reported GDP figures"
+      image = "pictrade.jpg"
+      url = "blogs/gdp"
+      
+      [[params.tiles.showcase]]
       title = "Yield Curve"
       subtitle = "My analysis of yield curve behavior"
       image = "piclehman.jpg"
       url = "blogs/yieldcurve"
 
-    [[params.tiles.showcase]]
-      title = "Gross Domestic Product"
-      subtitle = "Using the Expenditure Approach to approximate reported GDP figures"
-      image = "pictrade.jpg"
-      url = "blogs/gdp"
 
    # [[params.tiles.showcase]]
     #  title = "Consequat"
