@@ -1,5 +1,5 @@
 ---
-title: "AirBnB_Project"
+title: "AirBnB Project"
 author: "Study Group 15A"
 date: "`r Sys.Date()`"
 output:

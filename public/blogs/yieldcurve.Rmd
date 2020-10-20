@@ -1,5 +1,5 @@
 ---
-title: "Yield Curve Analysis"
+title: "Yield Curve Behavior"
 author: "Philipp Niebuhr"
 date: "`r Sys.Date()`"
 output:
@@ -48,7 +48,7 @@ library(tidyquant)
 
 
 
-# Yield Curve inversion
+# What is an inverted yield curve? 
 
 Every so often, we hear warnings from commentators on the "inverted yield curve" and its predictive power with respect to recessions.
 
@@ -250,7 +250,7 @@ yield_curve1999_plot
 ### 3-month and 10-year yields since 1999
 
 
-We would like to replicate the following graph
+I would like to plot the yields on 3-month and 10-year US Treasury bonds since 1999.
 
 *My result:*
 ```{r, recreating_third_plot, eval = TRUE}
@@ -324,7 +324,7 @@ For the final graph, I proceed in three steps:
 1. Superimpose recessions as the grey areas in our plot
 1. Plot the spread between 30 years and 3 months as a blue/red ribbon, based on whether the spread is positive (blue) or negative(red)
 
-*Our Result:*
+*My Result:*
 ```{r, final_graph_challenge1}
 ###PREP DATA
 

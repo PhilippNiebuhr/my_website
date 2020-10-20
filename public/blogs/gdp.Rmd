@@ -1,5 +1,5 @@
 ---
-title: "GDP Project"
+title: "GDP components over time and among countries"
 author: "Philipp Niebuhr"
 date: "`r Sys.Date()`"
 output:
@@ -47,8 +47,6 @@ library(tidyquant)
 ```
 
 
-
-# GDP components over time and among countries
 
 ## What is GDP?
 

@@ -8,7 +8,7 @@
 	<meta name="description" content="Philipp, 23 years old, MFA Student at London Business School, from Germany">
 	<meta name="author" content="Philipp">
 	<meta name="generator" content="Hugo 0.75.1" />
-	<title>Yield Curve Analysis &middot; Portfolio website for Philipp</title>
+	<title>Yield Curve Behavior &middot; Portfolio website for Philipp</title>
 	<!-- Stylesheets -->
 	
 	<link rel="stylesheet" href="/css/main.css"/>
@@ -69,14 +69,14 @@
                     <section id="one">
                         <div class="inner">
                             <header class="major">
-                                <h1>Yield Curve Analysis</h1>
+                                <h1>Yield Curve Behavior</h1>
                             </header>
                             
                             
 
 
-<div id="yield-curve-inversion" class="section level1">
-<h1>Yield Curve inversion</h1>
+<div id="what-is-an-inverted-yield-curve" class="section level1">
+<h1>What is an inverted yield curve?</h1>
 <p>Every so often, we hear warnings from commentators on the “inverted yield curve” and its predictive power with respect to recessions.</p>
 <p>In our case we will look at US data and use the <a href="https://fred.stlouisfed.org/">FRED database</a> to download historical yield curve rates, and plot the yield curves since 1999 to see when the yield curves flatten.</p>
 <p>First, we will use the <code>tidyquant</code> package to download monthly rates for different durations.</p>
@@ -512,7 +512,7 @@ yield_curve1999_plot </code></pre>
 </div>
 <div id="month-and-10-year-yields-since-1999" class="section level3">
 <h3>3-month and 10-year yields since 1999</h3>
-<p>We would like to replicate the following graph</p>
+<p>I would like to plot the yields on 3-month and 10-year US Treasury bonds since 1999.</p>
 <p><em>My result:</em></p>
 <pre class="r"><code>##PREPPING DATA FOR PLOT
 
@@ -587,7 +587,7 @@ yield_3m_10m_plot #print plot</code></pre>
 <li>Superimpose recessions as the grey areas in our plot</li>
 <li>Plot the spread between 30 years and 3 months as a blue/red ribbon, based on whether the spread is positive (blue) or negative(red)</li>
 </ol>
-<p><em>Our Result:</em></p>
+<p><em>My Result:</em></p>
 <pre class="r"><code>###PREP DATA
 
 ##US RECESSION
