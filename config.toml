@@ -101,13 +101,13 @@ disqusShortname = ""
       title = "Yield Curve"
       subtitle = "My analysis of yield curve behavior"
       image = "piclehman.jpg"
-      url = "projects/project1"
+      url = "blogs/yieldcurve"
 
     [[params.tiles.showcase]]
       title = "Gross Domestic Product"
       subtitle = "Using the Expenditure Approach to approximate reported GDP figures"
       image = "pictrade.jpg"
-      url = "projects/project3"
+      url = "blogs/gdp"
 
     [[params.tiles.showcase]]
       title = "Ipsum"
