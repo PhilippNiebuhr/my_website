@@ -95,7 +95,7 @@ disqusShortname = ""
       title = "My résumé"
       subtitle = "What I have done so far"
       image = "piclbs.jpg"
-      url = "blogs/Philipp_Niebuhr_CV"
+      url = "projects/project2"
 
     [[params.tiles.showcase]]
       title = "Yield Curve"
@@ -104,9 +104,9 @@ disqusShortname = ""
       url = "projects/project1"
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
-      image = "pic03.jpg"
+      title = "Gross Domestic Product"
+      subtitle = "Using the Expenditure Approach to approximate reported GDP figures"
+      image = "pictrade.jpg"
       url = "blogs/magna"
 
     [[params.tiles.showcase]]
