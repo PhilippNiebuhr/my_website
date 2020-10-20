@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>/blogs/gdp/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/projects/project3/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
   </url>
@@ -40,6 +35,11 @@
   <url>
     <loc>/blogs/yieldcurve/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blogs/ipsumslug/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
   </url>
   
   <url>

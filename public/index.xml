@@ -17,15 +17,6 @@
     </item>
     
     <item>
-      <title>GDP components over time and among countries</title>
-      <link>/blogs/gdp/</link>
-      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blogs/gdp/</guid>
-      <description>What is GDP?Gross domestic product (GDP) is a monetary measure of the market value of all the final goods and services produced in a specific time period. GDP (nominal) per capita does not, however, reflect differences in the cost of living and the inflation rates of the countries; therefore, using a basis of GDP per capita at purchasing power parity (PPP) is arguably more useful when comparing living standards between nations, while nominal GDP is more useful comparing national economies on the international market.</description>
-    </item>
-    
-    <item>
       <title>GDP Project</title>
       <link>/projects/project3/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
@@ -54,6 +45,15 @@ First, we will use the tidyquant package to download monthly rates for different
       <description>What is an inverted yield curve?Every so often, we hear warnings from commentators on the “inverted yield curve” and its predictive power with respect to recessions.
 In our case we will look at US data and use the FRED database to download historical yield curve rates, and plot the yield curves since 1999 to see when the yield curves flatten.
 First, we will use the tidyquant package to download monthly rates for different durations.</description>
+    </item>
+    
+    <item>
+      <title>Ipsumtitle</title>
+      <link>/blogs/ipsumslug/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>/blogs/ipsumslug/</guid>
+      <description>blah blah</description>
     </item>
     
     <item>
