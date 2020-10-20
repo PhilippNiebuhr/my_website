@@ -100,7 +100,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Shanghai AirBnB Pricing Analysis"
       subtitle = "Our final group project for the Data Analytics Course at LBS"
-      image = "picshanghai"
+      image = "picshanghai.jpg"
       url = "blogs/AirBnB_Group15A_Final"
 
     [[params.tiles.showcase]]
